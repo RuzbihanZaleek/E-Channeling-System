@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">   
+        <link rel="stylesheet" type="text/css" href="style.css">  
+        <style>
+            h3{
+                color: red;
+            }
+            .login-box{
+                height: 430px;
+            }
+            body{
+                background-image: url("happy-patient.png");
+                background-attachment: fixed;
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <form method="post" action="patHome2.jsp">
+            <div class="login-box">
+                <img src="user.png" class="avatar">
+                <h3><center>Incorrect NIC or Password!</center></h3>
+                <p>NIC</p>
+                <input type="text" name="nic" placeholder="Enter NIC" required="required">
+                <p>Password</p>
+                <input type="password" name="password" placeholder="Enter Password" required="required">
+                <input type="submit" name="submit" value="Login">
+                <center>
+                    <a href = "patLogin.html" style="color: blacl; line-height: 2.0; ">
+                        <u>Don't have an account?</u>
+                    </a>
+                </center>
+                <center>
+                    <a href = "patReg.jsp" style="color: blue; line-height: 2.0">
+                        <u>Register Now</u>
+                    </a>
+                </center>
+        </form>
+    <center><h1><a href="index.html">Back</a></h1></center>
+</div>   
+</body>
+</html>
+
